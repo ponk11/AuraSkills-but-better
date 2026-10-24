@@ -4,11 +4,11 @@
 
 abilities:
   bountiful_harvest:
-    name: Bountiful Harvest
+    name: Verdant Fortune
     desc: "Grants +{value} Farming Luck, which increases the chance for extra drops."
     info: "+{value} Farming Luck"
   farmer:
-    name: Farmer
+    name: Hearthkeeper
     desc: "Earn {value}% more Farming XP."
     info: "+{value}% XP"
   scythe_master:
@@ -20,11 +20,11 @@ abilities:
     desc: "Increases saturation gain from plant-based foods by {value}."
     info: "+{value} Saturation"
   growth_aura:
-    name: Growth Aura
+    name: Bloomfield Aura
     desc: "Crops with growth stages within {radius} blocks of you grow {value}% faster."
     info: "+{value}% Growth"
   lumberjack:
-    name: Lumberjack
+    name: Timberbound
     desc: "Grants +{value} Foraging Luck, which increases the chance for extra drops."
     info: "+{value} Foraging Luck"
   forager:
@@ -44,7 +44,7 @@ abilities:
     desc: "{value}% chance to deal triple durability damage with axes."
     info: "{value}% 3x Durability Damage"
   lucky_miner:
-    name: Lucky Miner
+    name: Deepstone Fortune
     desc: "Grants +{value} Mining Luck, which increases the chance for extra drops."
     info: "+{value} Mining Luck"
   miner:
@@ -72,7 +72,7 @@ abilities:
     desc: "Earn {value}% more Fishing XP."
     info: "+{value}% XP"
   treasure_hunter:
-    name: Treasure Hunter
+    name: Tideborn Instinct
     desc: "{value}% higher chance to get rare loot from fishing."
     info: "+{value}% Rare Loot"
   grappler:
@@ -104,7 +104,7 @@ abilities:
     desc: "{value}% added chance to get epic loot from digging."
     info: "+{value}% Epic Loot"
   retrieval:
-    name: Retrieval
+    name: Echoing Quiver
     desc: "Arrows you miss will be instantly retrieved after {time}s up to {value} blocks away."
     info: "{value} Distance"
   archer:
@@ -124,7 +124,7 @@ abilities:
     desc: "{value}% chance to decrease enemy movement speed by {reduction_percent}% for 2 seconds."
     info: "{value}% Stun Chance"
   shielding:
-    name: Shielding
+    name: Violet Guard
     desc: "Reduce incoming damage by {value}% while sneaking."
     info: "-{value}% Incoming Dmg Sneaking"
   defender:
@@ -144,7 +144,7 @@ abilities:
     desc: "{value}% chance to negate a harmful potion effect from being applied."
     info: "{value}% No Debuff"
   parry:
-    name: Parry
+    name: Duelist's Veil
     desc: "Missing a sword swing within {time}s before being hit reduces damage by {value}% and cancels knockback."
     info: "{value}% Dmg Reduction"
     parried: "<red>Attack parried"
@@ -169,12 +169,12 @@ abilities:
     self_bleeding: "<red>You are bleeding!"
     stop: "<white>The bleeding has stopped"
   anti_hunger:
-    name: Anti Hunger
-    desc: "{value}% chance to stop hunger loss."
+    name: Everlasting Ember
+    desc: "{value}% chance to preserve your hunger while exploring."
     info: "{value}% No Hunger Loss"
   runner:
-    name: Runner
-    desc: "Earn {value}% more Endurance XP."
+    name: Roadwalker
+    desc: "Earn {value}% more Endurance XP while traveling the wilds."
     info: "+{value}% XP"
   golden_heal:
     name: Golden Heal
@@ -189,11 +189,11 @@ abilities:
     desc: "{value}% chance to steal 1 hunger point when attacking a player."
     info: "{value}% Hunger Steal"
   light_fall:
-    name: Light Fall
-    desc: "Reduces all fall damage by {value}%"
+    name: Featherstep
+    desc: "Reduces all fall damage by {value}%."
     info: "-{value}% Fall Damage"
   jumper:
-    name: Jumper
+    name: Skybound
     desc: "Earn {value}% more Agility XP."
     info: "+{value}% XP"
   sugar_rush:
@@ -201,13 +201,13 @@ abilities:
     desc: "Consumed and splashed speed and jump boost potions last {value}% longer."
     info: "{value}% Longer Speed"
   fleeting:
-    name: Fleeting
+    name: Last Light
     desc: "Gain +{value} Speed when below 20% health."
     info: "+{value}% Speed"
     start: "<white>You have gained a fleeting speed boost! <gray>(+{value}% Speed)"
     end: "<gray>Fleeting speed boost has worn off"
   thunder_fall:
-    name: Thunder Fall
+    name: Starfall
     desc: "When sneaking during a fall, you have a {value}% chance to deal {value_2}% of the fall damage expected to mobs in a 3 block radius."
     info: "{value}% Chance, {value_2}% Damage"
   alchemist:
@@ -219,15 +219,15 @@ abilities:
     desc: "Earn {value}% more Alchemy XP."
     info: "+{value}% XP"
   splasher:
-    name: Splasher
-    desc: "Potions you splash gain {value}% longer duration for each player affected."
+    name: Alchemical Chorus
+    desc: "Splash potions gain {value}% longer duration for each player affected."
     info: "+{value}% Duration/Player"
   lingering:
-    name: Lingering
-    desc: "Lingering potions naturally decay {value}% slower and decay {value_2}% less per affected entity."
+    name: Veilweaver
+    desc: "Lingering potions decay {value}% slower and lose {value_2}% less per affected entity."
     info: "-{value}% Natural, -{value_2}% Entity Decay"
   wise_effect:
-    name: Wise Effect
+    name: Arcane Resonance
     desc: "Gain {value} Wisdom for every unique active potion effect."
     info: "+{value} Wisdom/Effect"
   xp_convert:
@@ -239,7 +239,7 @@ abilities:
     desc: "Earn {value}% more Enchanting XP."
     info: "+{value}% XP"
   xp_warrior:
-    name: XP Warrior
+    name: Soulbound Victory
     desc: "Mobs you kill have a {value}% chance of dropping double experience."
     info: "{value}% 2x Mob XP"
   enchanted_strength:
@@ -251,7 +251,7 @@ abilities:
     desc: "Items you enchant using the enchantment table have a {value}% chance of upgrading the enchantment level by 1 if not max level."
     info: "{value}% Enchant Upgrade Chance"
   life_essence:
-    name: Life Essence
+    name: Crimson Vitality
     desc: Instant Health potions heal {value}% more.
     info: "+{value}% Instant Health"
   healer:
@@ -288,7 +288,7 @@ abilities:
     desc: Increases the maximum repair cost of an anvil before it is too expensive to {value} experience.
     info: "{value} Max Cost"
   skill_mender:
-    name: Skill Mender
+    name: Mytherian Mending
     desc: Gaining skill XP has a {value}% chance to repair a held item or worn armor piece with the Mending enchantment by 1 durability per 2 skill XP.
     info: "{value}% Mend Chance"
 acf:
@@ -676,20 +676,20 @@ commands:
   unknown_trait: "<yellow>Unknown trait!"
   no_profile: "<yellow>Player does not have a skills profile. Please try rejoining the game or restarting the server."
 leveler:
-  level_up: "{skill} Level Up"
-  skill_level_up: Skill Level Up
-  rewards: Rewards
-  ability_unlock: Ability Unlock
-  ability_level_up: Ability Level Up
-  mana_ability_unlock: Mana Ability Unlock
-  mana_ability_level_up: Mana Ability Level Up
-  unclaimed_item: "<red>You have unclaimed items because your inventory was full, use <yellow>/skills claimitems <red>to claim them"
+  level_up: "<light_purple><bold>MYTHERIA ASCENSION</bold> <dark_purple>» <light_purple>{skill} <light_purple>reached a new level!"
+  skill_level_up: "<light_purple><bold>SKILL AWAKENED</bold>"
+  rewards: "<light_purple>Mytheria rewards"
+  ability_unlock: "<light_purple>New ability discovered"
+  ability_level_up: "<light_purple>Ability strengthened"
+  mana_ability_unlock: "<light_purple>Mana technique learned"
+  mana_ability_level_up: "<light_purple>Mana technique empowered"
+  unclaimed_item: "<red>Your Mytheria rewards are waiting! Use <yellow>/skills claimitems <red>when your inventory has room."
 menus:
   common:
-    close: "Close"
+    close: "<light_purple>Close"
     level: "Level"
-    progress_to_level: "Progress to Level"
-    max_level: "MAX LEVEL"
+    progress_to_level: "<light_purple>Progress to Level"
+    max_level: "<light_purple>MYTHERIA CAP"
     ability_levels: "Ability Levels"
     stats_leveled: "Stats Leveled"
     mana_ability: "Mana Ability"
@@ -701,9 +701,9 @@ menus:
     attack_speed: "Attack Speed"
     back: "Go Back"
     back_click: "Back to {menu_name} Menu"
-    unlocked: "UNLOCKED"
-    in_progress: "IN PROGRESS"
-    locked: "LOCKED"
+    unlocked: "<light_purple>UNLOCKED"
+    in_progress: "<light_purple>IN PROGRESS"
+    locked: "<dark_purple>LOCKED"
     your_level: "Your Level"
     next_page: "Next Page"
     next_page_click: "Click to go to next page"
@@ -716,18 +716,18 @@ menus:
     modifiers_additive: "Modifiers (Additive)"
     modifiers_multiplicative: "Modifiers (Multiplicative)"
   skills:
-    skills_title: "Your Skills"
-    your_skills: "Your Skills"
-    your_skills_desc: "Upgrade Skills by doing various tasks to unlock valuable stat boosts, abilities, and more!"
-    your_skills_hover: "Hover over a Skill for more information!"
-    your_skills_click: "Click on a Skill to view level progression!"
-    skill_click: "Click to view Level Progression!"
+    skills_title: "<light_purple><bold>MYTHERIAMC • SKILLS</bold>"
+    your_skills: "Mytheria Skills"
+    your_skills_desc: "Shape your survival story. Every skill unlocks traits, abilities, and increasingly powerful milestones."
+    your_skills_hover: "Hover over a skill to reveal its path."
+    your_skills_click: "Click to explore its progression."
+    skill_click: "Open the skill's progression path."
     stats: "Stats"
-    stats_desc: "Earn stat buffs by leveling up skills"
-    stats_click: "Click to learn more or view your stats"
-    active_job: Active Job
+    stats_desc: "Your skill levels fuel permanent Mytheria traits."
+    stats_click: "Click to inspect your traits and stats."
+    active_job: "<light_purple>Active Path"
   level_progression:
-    level_progression_title: "{skill} Levels - Page {page}"
+    level_progression_title: "<light_purple>{skill} <dark_purple>• <light_purple>Mytheria Path <gray>(Page {page})"
     your_ranking: "Your Skill Ranking"
     rank_out_of: "<1>You are ranked <2>{rank}</2> out of {total} players</1>"
     rank_percent: "<1>You are in the top <2>{percent}%</2> of players</1>"
@@ -775,7 +775,7 @@ menus:
     multiplied_xp: "Multiplied {xp_unit}"
     multiplied_desc: "This is the XP you will actually earn based on your current XP multipliers"
   abilities:
-    abilities_title: "{skill} Abilities"
+    abilities_title: "<light_purple>{skill} <dark_purple>• <light_purple>Ability Codex"
     description: "Description"
     unlocked_at: "<1>Unlocked at <2>{skill} {level}"
     next_upgrade_at: "<1>Next upgrade at <2>{skill} {level}"
@@ -805,28 +805,28 @@ menus:
     effective_trait: "Effective {trait_name}"
 mana_abilities:
   replenish:
-    name: Replenish
+    name: Verdant Rebirth
     desc: "Replants crops automatically for {value} seconds. <1>[Right click hoe and break crop to activate]"
     raise: "<gray>You raise your hoe"
     lower: "<gray>You lower your hoe"
     start: "<gold>Replenish Activated! <gray>(-{mana} {mana_unit})"
     end: "<gray>Replenish has worn off"
   treecapitator:
-    name: Treecapitator
+    name: Titan's Grove
     desc: "Breaks entire trees instantly for {value} seconds. <1>[Right click axe and break log to activate]"
     raise: "<gray>You raise your axe"
     lower: "<gray>You lower your axe"
     start: "<gold>Treecapitator Activated! <gray>(-{mana} {mana_unit})"
     end: "<gray>Treecapitator has worn off"
   speed_mine:
-    name: Speed Mine
+    name: Veinrush
     desc: "Gives Haste {haste_level} for {value} seconds. <1>[Right click pickaxe and mine block to activate]"
     raise: "<gray>You raise your pickaxe"
     lower: "<gray>You lower your pickaxe"
     start: "<gold>Speed Mine Activated! <gray>(-{mana} {mana_unit})"
     end: "<gray>Speed Mine has worn off"
   absorption:
-    name: Absorption
+    name: Astral Aegis
     desc: "Incoming damage will decrease mana by 2x Minecraft damage instead of your health for {value} seconds. Mana will not regenerate while Absorption is active. <1>[Left click shield and take damage to activate]"
     raise: "<gray>You raise your shield"
     lower: "<gray>You lower your shield"
@@ -850,7 +850,7 @@ mana_abilities:
     disable: "<gray>Charged shot mode is now disabled"
     shoot: "<gold>Used Charged Shot! <light_purple>+{percent}% DMG <gray>(-{mana} {mana_unit})"
   lightning_blade:
-    name: Lightning Blade
+    name: Violet Tempest
     desc: Increases attack speed by {value}% for {duration} seconds. <1>[Right click sword and attack mob to activate]
     raise: "<gray>You ready your sword"
     lower: "<gray>You lower your sword"
@@ -860,29 +860,29 @@ mana_abilities:
   not_enough_mana: "<yellow>Not enough mana! <gray>({mana} {mana_unit} required)"
 skills:
   farming:
-    name: Farming
-    desc: "Harvest crops to earn Farming {xp_unit}"
+    name: Verdancy
+    desc: "Cultivate the land to earn Verdancy {xp_unit}"
   foraging:
-    name: Foraging
-    desc: "Cut trees to earn Foraging {xp_unit}"
+    name: Wildcraft
+    desc: "Master the forest to earn Wildcraft {xp_unit}"
   mining:
-    name: Mining
-    desc: "Mine stone and ores to earn Mining {xp_unit}"
+    name: Deepstone
+    desc: "Uncover ores and relics to earn Deepstone {xp_unit}"
   fishing:
-    name: Fishing
-    desc: "Catch fish to earn Fishing {xp_unit}"
+    name: Tidecalling
+    desc: "Read the waters to earn Tidecalling {xp_unit}"
   excavation:
-    name: Excavation
-    desc: "Dig with a shovel to earn Excavation {xp_unit}"
+    name: Relicbound
+    desc: "Dig for ancient finds to earn Relicbound {xp_unit}"
   archery:
-    name: Archery
-    desc: "Shoot mobs and players with a bow to earn Archery {xp_unit}"
+    name: Starshot
+    desc: "Master ranged combat to earn Starshot {xp_unit}"
   defense:
-    name: Defense
-    desc: "Take damage from entities to earn Defense {xp_unit}"
+    name: Bulwark
+    desc: "Endure danger to earn Bulwark {xp_unit}"
   fighting:
-    name: Fighting
-    desc: "Fight mobs with melee weapons to earn Fighting {xp_unit}"
+    name: Warcraft
+    desc: "Defeat foes in close combat to earn Warcraft {xp_unit}"
   endurance:
     name: Endurance
     desc: "Walk and run to earn Endurance {xp_unit}"

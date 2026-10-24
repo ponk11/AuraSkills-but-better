@@ -5,8 +5,8 @@ patterns:
     pattern:
       interval: 1
   - type: stat
-    stat: health
-    value: 0.4
+    stat: luck
+    value: 1
     pattern:
-      interval: 2
+      interval: 3
 levels:

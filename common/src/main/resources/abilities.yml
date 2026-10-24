@@ -311,7 +311,7 @@ abilities:
     enabled: true
     base_value: 10.0
     value_per_level: 10.0
-    unlock: '{start}+2'
+    unlock: '{start}+3'
     level_up: 5
     max_level: 0
   auraskills/golden_heal:
@@ -339,14 +339,14 @@ abilities:
     enabled: true
     base_value: 2.0
     value_per_level: 1.5
-    unlock: '{start}+1'
+    unlock: '{start}+6'
     level_up: 5
     max_level: 0
   auraskills/jumper:
     enabled: true
     base_value: 10.0
     value_per_level: 10.0
-    unlock: '{start}+2'
+    unlock: '{start}+10'
     level_up: 5
     max_level: 0
   auraskills/sugar_rush:
@@ -360,7 +360,7 @@ abilities:
     enabled: true
     base_value: 5.0
     value_per_level: 4.0
-    unlock: '{start}+4'
+    unlock: '{start}+18'
     level_up: 5
     max_level: 0
     health_percent_required: 20.0
@@ -392,7 +392,7 @@ abilities:
     enabled: true
     base_value: 0.5
     value_per_level: 0.25
-    unlock: '{start}+3'
+    unlock: '{start}+8'
     level_up: 5
     max_level: 0
   auraskills/lingering:
@@ -401,14 +401,14 @@ abilities:
     value_per_level: 4.0
     secondary_base_value: 3.0
     secondary_value_per_level: 2.0
-    unlock: '{start}+4'
+    unlock: '{start}+15'
     level_up: 5
     max_level: 0
   auraskills/wise_effect:
     enabled: true
     base_value: 1.0
     value_per_level: 1.0
-    unlock: '{start}+5'
+    unlock: '{start}+25'
     level_up: 5
     max_level: 0
   auraskills/xp_convert:
@@ -429,7 +429,7 @@ abilities:
     enabled: true
     base_value: 5.0
     value_per_level: 4.0
-    unlock: '{start}+3'
+    unlock: '{start}+12'
     level_up: 5
     max_level: 0
   auraskills/enchanted_strength:

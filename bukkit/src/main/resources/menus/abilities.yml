@@ -2,18 +2,18 @@ title: '{{abilities_title}}'
 size: 4
 fill:
   enabled: true
-  material: black_stained_glass_pane
+  material: purple_stained_glass_pane
 items:
   back:
     material: arrow
     pos: 3,0
-    display_name: '<green>{{back}}'
+    display_name: '<light_purple>{{back}}'
     lore:
       - '<gray>{{back_click}}'
 templates:
   locked_ability:
-    material: gray_dye
-    display_name: '<aqua>{name}'
+    material: purple_dye
+    display_name: '<light_purple>{name}'
     lore:
       - '<white>{{description}}:'
       - text: '{desc}'
@@ -26,10 +26,10 @@ templates:
           1: '<gray>'
           2: '<dark_aqua>'
       - ' '
-      - '<red>{{locked}}'
+      - '<dark_purple>{{locked}}'
   locked_mana_ability:
     pos: 2,4
-    material: gray_dye
+    material: purple_dye
     display_name: '<light_purple>{name}'
     lore:
       - '<white>{{description}}:'
@@ -45,10 +45,10 @@ templates:
           1: '<gray>'
           2: '<dark_aqua>'
       - ' '
-      - '<red>{{locked}}'
+      - '<dark_purple>{{locked}}'
   unlocked_ability:
-    material: light_blue_dye
-    display_name: '<aqua>{name}'
+    material: magenta_dye
+    display_name: '<light_purple>{name}'
     lore:
       - component: your_level
       - component: your_level_maxed
@@ -59,8 +59,8 @@ templates:
       - '<green>{{unlocked}}'
   unlocked_mana_ability:
     pos: 2,4
-    material: magenta_dye
-    display_name: '&d{name}'
+    material: pink_dye
+    display_name: '<light_purple>{name}'
     lore:
       - component: your_level
       - component: your_level_maxed
@@ -68,7 +68,7 @@ templates:
       - component: unlocked_desc
       - component: unlocked_desc_maxed
       - ' '
-      - '<green>{{unlocked}}'
+      - '<light_purple>{{unlocked}}'
 components:
   your_level:
     context: AbstractAbility

@@ -7,7 +7,7 @@ mana_abilities:
     cooldown_per_level: -5
     base_mana_cost: 20
     mana_cost_per_level: 12
-    unlock: 6
+    unlock: 12
     level_up: 6
     max_level: 0
     require_sneak: false
@@ -24,7 +24,7 @@ mana_abilities:
     cooldown_per_level: -5
     base_mana_cost: 20
     mana_cost_per_level: 12
-    unlock: 6
+    unlock: 12
     level_up: 6
     max_level: 0
     require_sneak: false
@@ -44,7 +44,7 @@ mana_abilities:
     cooldown_per_level: -5
     base_mana_cost: 20
     mana_cost_per_level: 12
-    unlock: 6
+    unlock: 12
     level_up: 6
     max_level: 0
     require_sneak: false
@@ -59,7 +59,7 @@ mana_abilities:
     cooldown_per_level: -0.1
     base_mana_cost: 5
     mana_cost_per_level: 2
-    unlock: 6
+    unlock: 12
     level_up: 6
     max_level: 0
     display_damage_with_scaling: true
@@ -73,7 +73,7 @@ mana_abilities:
     cooldown_per_level: -5
     base_mana_cost: 20
     mana_cost_per_level: 12
-    unlock: 6
+    unlock: 12
     level_up: 6
     max_level: 0
     require_sneak: false
@@ -91,7 +91,7 @@ mana_abilities:
     cooldown_per_level: 0
     base_mana_cost: 10
     mana_cost_per_level: 5
-    unlock: 6
+    unlock: 12
     level_up: 6
     max_level: 0
     enable_message: true
@@ -105,7 +105,7 @@ mana_abilities:
     cooldown_per_level: -5
     base_mana_cost: 10
     mana_cost_per_level: 10
-    unlock: 6
+    unlock: 12
     level_up: 6
     max_level: 0
     enable_particles: true
@@ -119,7 +119,7 @@ mana_abilities:
     mana_cost_per_level: 12
     base_duration: 5.0
     duration_per_level: 4.0
-    unlock: 6
+    unlock: 12
     level_up: 6
     max_level: 0
     require_sneak: false

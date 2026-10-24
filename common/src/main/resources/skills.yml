@@ -3,9 +3,9 @@ skills:
     abilities:
       - auraskills/bountiful_harvest
       - auraskills/farmer
-      - auraskills/scythe_master
-      - auraskills/geneticist
       - auraskills/growth_aura
+      - auraskills/geneticist
+      - auraskills/scythe_master
     mana_ability: auraskills/replenish
     options:
       enabled: true
@@ -16,8 +16,8 @@ skills:
     abilities:
       - auraskills/lumberjack
       - auraskills/forager
-      - auraskills/axe_master
       - auraskills/valor
+      - auraskills/axe_master
       - auraskills/shredder
     mana_ability: auraskills/treecapitator
     options:
@@ -29,9 +29,9 @@ skills:
     abilities:
       - auraskills/lucky_miner
       - auraskills/miner
-      - auraskills/pick_master
       - auraskills/stamina
       - auraskills/hardened_armor
+      - auraskills/pick_master
     mana_ability: auraskills/speed_mine
     options:
       enabled: true
@@ -43,8 +43,8 @@ skills:
       - auraskills/lucky_catch
       - auraskills/fisher
       - auraskills/treasure_hunter
-      - auraskills/grappler
       - auraskills/epic_catch
+      - auraskills/grappler
     mana_ability: auraskills/sharp_hook
     options:
       enabled: true
@@ -82,8 +82,8 @@ skills:
       - auraskills/shielding
       - auraskills/defender
       - auraskills/mob_master
-      - auraskills/immunity
       - auraskills/no_debuff
+      - auraskills/immunity
     mana_ability: auraskills/absorption
     options:
       enabled: true
@@ -98,8 +98,8 @@ skills:
       - auraskills/parry
       - auraskills/fighter
       - auraskills/sword_master
-      - auraskills/first_strike
       - auraskills/bleed
+      - auraskills/first_strike
     mana_ability: auraskills/lightning_blade
     options:
       enabled: true
@@ -108,11 +108,11 @@ skills:
       check_multiplier_permissions: true
   auraskills/agility:
     abilities:
+      - auraskills/anti_hunger
+      - auraskills/runner
       - auraskills/light_fall
       - auraskills/jumper
-      - auraskills/golden_heal
       - auraskills/fleeting
-      - auraskills/meal_steal
     options:
       enabled: true
       max_level: 100
@@ -122,8 +122,8 @@ skills:
     abilities:
       - auraskills/alchemist
       - auraskills/brewer
-      - auraskills/life_steal
-      - auraskills/golden_heart
+      - auraskills/splasher
+      - auraskills/lingering
       - auraskills/wise_effect
     options:
       enabled: true
@@ -135,9 +135,9 @@ skills:
     abilities:
       - auraskills/xp_convert
       - auraskills/enchanter
-      - auraskills/anvil_master
       - auraskills/enchanted_strength
       - auraskills/lucky_table
+      - auraskills/xp_warrior
     options:
       enabled: true
       max_level: 100

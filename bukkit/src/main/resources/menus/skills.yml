@@ -2,25 +2,25 @@ title: '{{skills_title}}'
 size: 5
 fill:
   enabled: true
-  material: black_stained_glass_pane
+  material: purple_stained_glass_pane
 items:
   your_skills:
     pos: 0,0
     material: player_head
     skull_meta:
       base64: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
-    display_name: '<aqua>{{your_skills}} - <gold>{player}'
+    display_name: '<light_purple><bold>{{your_skills}}</bold> <dark_purple>• <light_purple>{player}'
     lore:
     - text: '{{your_skills_desc}}'
       wrap: true
-      style: '<gray>'
+      style: '<light_purple>'
     - ' '
     - text: '{{your_skills_hover}}'
       wrap: true
-      style: '<yellow>'
+      style: '<light_purple>'
     - text: '{{your_skills_click}}'
       wrap: true
-      style: '<yellow>'
+      style: '<light_purple>'
   close:
     pos: 4,8
     material: barrier
@@ -28,11 +28,11 @@ items:
   stats:
     pos: 0,8
     material: player_head
-    display_name: '<aqua>{{stats}}'
+    display_name: '<light_purple>{{stats}}'
     lore:
     - '<gray>{{stats_desc}}'
     - ' '
-    - '<yellow>{{stats_click}}'
+    - '<light_purple>{{stats_click}}'
 templates:
   skill:
     contexts:
@@ -128,7 +128,7 @@ templates:
         start: 3,0
         end: 3,8
         align: center
-    display_name: '<aqua>{skill} <dark_aqua>{level}'
+    display_name: '<light_purple>{skill} <dark_purple>• <light_purple>{level}'
     lore:
     - text: '{desc}'
       wrap: true
@@ -157,13 +157,13 @@ components:
     context: Skill
     lore:
     - ' '
-    - '<light_purple><bold>{{mana_ability}}</bold> <blue>{name} {level}'
+    - '<light_purple><bold>{{mana_ability}}</bold> <light_purple>{name} {level}'
     - '  {entries[\n  ](3)}'
   progress:
     context: Skill
     lore:
-    - '<gray>{{progress_to_level}} {next_level}: <yellow>{percent}%'
-    - '{bar}'
+    - '<gray>{{progress_to_level}} {next_level}: <light_purple>{percent}%'
+    - '<light_purple>{bar}'
     - '<gray>{current_xp}/{level_xp} {xp_unit}'
   max_level:
     context: Skill
@@ -185,9 +185,9 @@ formats:
   damage_per_mana_entry: '<gray>{{damage}}: <red>+{value}% / Mana '
   max_mana_cost_entry: '<gray>{{max_mana_cost}}: <aqua>{mana_cost} '
   attack_speed_entry: '<gray>{{attack_speed}}: <red>+{value}% '
-  bar_completed: '<green>■'
-  bar_current: '<yellow>■'
-  bar_remaining: '<gray>■'
+  bar_completed: '<light_purple>■'
+  bar_current: '<light_purple>■'
+  bar_remaining: '<dark_purple>■'
 options:
   bar_length: 20
   percent_format: '#.##'

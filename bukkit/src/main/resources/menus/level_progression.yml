@@ -2,27 +2,27 @@ title: '{{level_progression_title}}'
 size: 6
 fill:
   enabled: false
-  material: black_stained_glass_pane
+  material: purple_stained_glass_pane
 items:
   rank:
     pos: 0,1
     material: paper
-    display_name: '<gold>{{your_ranking}}'
+    display_name: '<light_purple>{{your_ranking}}'
     lore:
     - text: '{{rank_out_of}}'
       styles:
         1: '<white>'
-        2: '<gold>'
+        2: '<light_purple>'
     - text: '{{rank_percent}}'
       styles:
         1: '<white>'
-        2: '<gold>'
+        2: '<light_purple>'
     - ' '
     - '<yellow>{{leaderboard_click}}'
   back:
     pos: 5,0
     material: arrow
-    display_name: '<green>{{back}}'
+    display_name: '<light_purple>{{back}}'
     lore:
     - '<gray>{{back_click}}'
   close:
@@ -32,13 +32,13 @@ items:
   next_page:
     pos: 5,8
     material: arrow
-    display_name: '<gold>{{next_page}}'
+    display_name: '<light_purple>{{next_page}}'
     lore:
     - '<yellow>{{next_page_click}}'
   previous_page:
     pos: 5,7
     material: arrow
-    display_name: '<gold>{{previous_page}}'
+    display_name: '<light_purple>{{previous_page}}'
     lore:
     - '<yellow>{{previous_page_click}}'
   sources:
@@ -54,21 +54,21 @@ items:
   abilities:
     pos: 0,3
     material: light_blue_dye
-    display_name: '<red>{{abilities}}'
+    display_name: '<light_purple>{{abilities}}'
     lore:
     - text: '{{abilities_desc}} {{mana_abilities_desc}}'
       wrap: true
       wrap_style: 1
       styles:
         1: '<gray>'
-        2: '<aqua>'
+        2: '<light_purple>'
         3: '<light_purple>'
     - ' '
     - '<yellow>{{abilities_click}}'
   job:
     pos: 0,4
     material: gold_ingot
-    display_name: '<yellow>{{job}}'
+    display_name: '<light_purple>{{job}}'
     lore:
     - text: '{{job_desc}}'
       wrap: true
@@ -131,7 +131,7 @@ templates:
         flags: hide_potion_effects
       forging:
         material: anvil
-    display_name: '<aqua>{skill} <dark_aqua>{level}'
+    display_name: '<light_purple>{skill} <dark_purple>• <light_purple>{level}'
     lore:
     - text: '{desc}'
       wrap: true
@@ -144,7 +144,7 @@ templates:
     - component: max_level
   unlocked:
     material: lime_stained_glass_pane
-    display_name: '<green>{{level}} {level}'
+    display_name: '<light_purple>{{level}} {level}'
     lore:
     - '<gray>{{level}} <white>{level}'
     - component: rewards
@@ -156,7 +156,7 @@ templates:
     - '<green>{{unlocked}}'
   in_progress:
     material: yellow_stained_glass_pane
-    display_name: '<yellow>{{level}} {level}'
+    display_name: '<light_purple>{{level}} {level}'
     lore:
     - '<gray>{{level}} <white>{level}'
     - component: rewards
@@ -172,7 +172,7 @@ templates:
     - '<yellow>{{in_progress}}'
   locked:
     material: red_stained_glass_pane
-    display_name: '<red>{{level}} {level}'
+    display_name: '<dark_purple>{{level}} {level}'
     lore:
     - '<gray>{{level}} <white>{level}'
     - component: rewards
