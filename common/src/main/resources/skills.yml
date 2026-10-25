@@ -143,4 +143,41 @@ skills:
       max_level: 100
       check_cancelled: true
       check_multiplier_permissions: true
+  auraskills/sorcery:
+    abilities:
+      - auraskills/sorcerer
+      - auraskills/life_essence
+      - auraskills/revival
+      - auraskills/golden_heart
+      - auraskills/healer
+    mana_ability: auraskills/absorption
+    options:
+      enabled: true
+      max_level: 100
+      check_cancelled: true
+      check_multiplier_permissions: true
+  auraskills/healing:
+    abilities:
+      - auraskills/healer
+      - auraskills/golden_heal
+      - auraskills/recovery
+      - auraskills/life_steal
+      - auraskills/revival
+    options:
+      enabled: true
+      max_level: 100
+      check_cancelled: true
+      check_multiplier_permissions: true
+  auraskills/forging:
+    abilities:
+      - auraskills/forger
+      - auraskills/repairing
+      - auraskills/disenchanter
+      - auraskills/anvil_master
+      - auraskills/skill_mender
+    options:
+      enabled: true
+      max_level: 100
+      check_cancelled: true
+      check_multiplier_permissions: true
 file_version: 1

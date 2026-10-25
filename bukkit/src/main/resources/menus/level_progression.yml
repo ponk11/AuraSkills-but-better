@@ -2,7 +2,7 @@ title: '{{level_progression_title}}'
 size: 6
 fill:
   enabled: false
-  material: purple_stained_glass_pane
+  material: magenta_stained_glass_pane
 items:
   rank:
     pos: 0,1
@@ -22,7 +22,7 @@ items:
   back:
     pos: 5,0
     material: arrow
-    display_name: '<light_purple>{{back}}'
+    display_name: '<light_purple><bold>{{back}}</bold>'
     lore:
     - '<gray>{{back_click}}'
   close:
@@ -32,13 +32,13 @@ items:
   next_page:
     pos: 5,8
     material: arrow
-    display_name: '<light_purple>{{next_page}}'
+    display_name: '<light_purple><bold>{{next_page}}</bold>'
     lore:
     - '<yellow>{{next_page_click}}'
   previous_page:
     pos: 5,7
     material: arrow
-    display_name: '<light_purple>{{previous_page}}'
+    display_name: '<light_purple><bold>{{previous_page}}</bold>'
     lore:
     - '<yellow>{{previous_page_click}}'
   sources:
@@ -54,7 +54,7 @@ items:
   abilities:
     pos: 0,3
     material: light_blue_dye
-    display_name: '<light_purple>{{abilities}}'
+    display_name: '<light_purple><bold>{{abilities}}</bold>'
     lore:
     - text: '{{abilities_desc}} {{mana_abilities_desc}}'
       wrap: true
@@ -143,7 +143,7 @@ templates:
     - component: progress
     - component: max_level
   unlocked:
-    material: lime_stained_glass_pane
+    material: amethyst_block
     display_name: '<light_purple>{{level}} {level}'
     lore:
     - '<gray>{{level}} <white>{level}'
@@ -155,7 +155,7 @@ templates:
     - ' '
     - '<green>{{unlocked}}'
   in_progress:
-    material: yellow_stained_glass_pane
+    material: purple_stained_glass_pane
     display_name: '<light_purple>{{level}} {level}'
     lore:
     - '<gray>{{level}} <white>{level}'
@@ -171,7 +171,7 @@ templates:
     - ' '
     - '<yellow>{{in_progress}}'
   locked:
-    material: red_stained_glass_pane
+    material: crying_obsidian
     display_name: '<dark_purple>{{level}} {level}'
     lore:
     - '<gray>{{level}} <white>{level}'

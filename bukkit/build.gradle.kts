@@ -89,7 +89,7 @@ val jetbrainsLauncher = javaToolchains.launcherFor {
 tasks {
     withType<ShadowJar> {
         val projectVersion: String by project
-        archiveFileName.set("AuraSkills-${projectVersion}.jar")
+        archiveFileName.set("AuraSkills.jar")
 
         relocate("co.aikar.commands", "dev.aurelium.auraskills.acf")
         relocate("co.aikar.locales", "dev.aurelium.auraskills.locales")

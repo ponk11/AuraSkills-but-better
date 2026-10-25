@@ -1,0 +1,11 @@
+sources:
+  repair_and_combine:
+    type: anvil
+    xp: 20
+    menu_item:
+      material: anvil
+  grindstone_mastery:
+    type: grindstone
+    xp: 24
+    menu_item:
+      material: grindstone

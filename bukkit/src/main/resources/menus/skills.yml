@@ -1,5 +1,5 @@
 title: '{{skills_title}}'
-size: 5
+size: 6
 fill:
   enabled: true
   material: purple_stained_glass_pane
@@ -22,7 +22,7 @@ items:
       wrap: true
       style: '<light_purple>'
   close:
-    pos: 4,8
+    pos: 5,8
     material: barrier
     display_name: '<red>{{close}}'
   stats:
@@ -49,48 +49,48 @@ templates:
       defense:
         group: first_row
         order: 3
-        material: chainmail_chestplate
+        material: shield
         flags: hide_attributes
       endurance:
         group: first_row
         order: 4
-        material: golden_apple
+        material: compass
       farming:
         group: second_row
         order: 1
-        material: iron_hoe
+        material: wheat
         flags:
           - hide_attributes
       foraging:
         group: second_row
         order: 2
-        material: iron_axe
+        material: oak_sapling
         flags:
           - hide_attributes
       mining:
         group: second_row
         order: 3
-        material: iron_pickaxe
+        material: amethyst_shard
         flags:
           - hide_attributes
       fishing:
         group: second_row
         order: 4
-        material: fishing_rod
+        material: heart_of_the_sea
       excavation:
         group: second_row
         order: 5
-        material: iron_shovel
+        material: brush
         flags:
           - hide_attributes
       agility:
         group: third_row
         order: 1
-        material: feather
+        material: rabbit_foot
       alchemy:
         group: third_row
         order: 2
-        material: potion
+        material: brewing_stand
         potion_data:
           type: regen
         flags:
@@ -98,15 +98,15 @@ templates:
       enchanting:
         group: third_row
         order: 3
-        material: enchanting_table
+        material: enchanted_book
       sorcery:
         group: third_row
         order: 4
-        material: blaze_rod
+        material: ender_eye
       healing:
         group: third_row
         order: 5
-        material: splash_potion
+        material: golden_apple
         potion_data:
           type: instant_heal
         flags:
@@ -114,7 +114,7 @@ templates:
       forging:
         group: third_row
         order: 6
-        material: anvil
+        material: smithing_table
     groups:
       first_row:
         start: 1,0
@@ -128,7 +128,7 @@ templates:
         start: 3,0
         end: 3,8
         align: center
-    display_name: '<light_purple>{skill} <dark_purple>• <light_purple>{level}'
+    display_name: '<light_purple><bold>{skill}</bold> <dark_purple>» <light_purple>{level}'
     lore:
     - text: '{desc}'
       wrap: true
@@ -141,7 +141,7 @@ templates:
     - component: max_level
     - component: skill_job_active
     - ' '
-    - '<yellow>{{skill_click}}'
+    - '<light_purple>{{skill_click}}'
 components:
   stats_leveled:
     context: Skill

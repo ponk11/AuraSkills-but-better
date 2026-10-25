@@ -2,12 +2,12 @@ title: '{{leaderboard_title}}'
 size: 5
 fill:
   enabled: true
-  material: black_stained_glass_pane
+  material: purple_stained_glass_pane
 items:
   back:
     material: arrow
     pos: 4,4
-    display_name: '<green>{{back}}'
+    display_name: '<light_purple><bold>{{back}}</bold>'
     lore:
       - '<gray>{{back_click}}'
 templates:
@@ -34,6 +34,6 @@ templates:
         pos: 3,6
       10:
         pos: 3,7
-    display_name: '<yellow>{place}. <gold>{player}'
+    display_name: '<light_purple>{place}. <dark_purple>• <light_purple>{player}'
     lore:
       - '<gray>{{level}}: <white>{level}'

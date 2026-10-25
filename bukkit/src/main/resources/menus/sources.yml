@@ -2,30 +2,30 @@ title: '{{sources_title}} ({current_page}/{total_pages})'
 size: 6
 fill:
   enabled: true
-  material: black_stained_glass_pane
+  material: purple_stained_glass_pane
 items:
   back:
     pos: 5,0
     material: arrow
-    display_name: '<green>{{back}}'
+    display_name: '<light_purple><bold>{{back}}</bold>'
     lore:
       - '<gray>{{back_click}}'
   next_page:
     pos: 5,5
     material: arrow
-    display_name: '<gold>{{next_page}}'
+    display_name: '<light_purple><bold>{{next_page}}</bold>'
     lore:
       - '<yellow>{{next_page_click}}'
   previous_page:
     pos: 5,3
     material: arrow
-    display_name: '<gold>{{previous_page}}'
+    display_name: '<light_purple><bold>{{previous_page}}</bold>'
     lore:
       - '<yellow>{{previous_page_click}}'
   sorter:
     pos: 5,4
     material: hopper
-    display_name: '<aqua>{{sorter}}'
+    display_name: '<light_purple>{{sorter}}'
     lore:
       - '{sort_types[\n]}'
       - ' '

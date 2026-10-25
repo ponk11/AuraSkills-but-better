@@ -1,0 +1,23 @@
+sources:
+  drink_potions:
+    type: item_consume
+    item:
+      material: potion
+      potion_data:
+        excluded_types: [mundane, thick, water, awkward]
+    xp: 22
+    menu_item:
+      material: potion
+      potion_data:
+        type: regeneration
+  splash_healing:
+    type: potion_splash
+    item:
+      material: splash_potion
+      potion_data:
+        type: [healing, regeneration]
+    xp: 35
+    menu_item:
+      material: splash_potion
+      potion_data:
+        type: healing

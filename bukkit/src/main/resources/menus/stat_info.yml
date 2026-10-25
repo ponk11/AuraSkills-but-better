@@ -2,15 +2,15 @@ title: '{{stat_details}}'
 size: 6
 fill:
   enabled: true
-  material: black_stained_glass_pane
+  material: purple_stained_glass_pane
   shapes:
   - shape: border
   - column: 7
 items:
   back:
     material: arrow
-    pos: 5,0
-    display_name: '<green>{{back}}'
+    pos: 5,8
+    display_name: '<light_purple>{{back}}'
     lore:
     - '<gray>{{back_click}}'
 templates:
@@ -18,24 +18,24 @@ templates:
     pos: 0,8
     contexts:
       strength:
-        material: red_stained_glass
+        material: crimson_nylium
       health:
-        material: orange_stained_glass
+        material: redstone_block
       regeneration:
-        material: yellow_stained_glass
+        material: golden_apple
       luck:
-        material: green_stained_glass
+        material: emerald_block
       wisdom:
-        material: blue_stained_glass
+        material: amethyst_block
       toughness:
-        material: purple_stained_glass
+        material: obsidian
       crit_chance:
-        material: lime_stained_glass
+        material: pointed_dripstone
       crit_damage:
-        material: cyan_stained_glass
+        material: netherite_sword
       speed:
-        material: white_stained_glass
-    display_name: '{color}{stat_name}'
+        material: feather
+    display_name: '<light_purple><bold>{color}{stat_name}</bold>'
     lore:
     - '<dark_gray>{{stat}}'
     - ' '
@@ -205,4 +205,3 @@ formats:
   value_add: '+{value}'
   value_multiply: '{value}x'
   value_add_percent: '+{value}%'
-

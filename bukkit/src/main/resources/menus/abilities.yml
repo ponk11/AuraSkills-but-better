@@ -1,18 +1,18 @@
 title: '{{abilities_title}}'
-size: 4
+size: 5
 fill:
   enabled: true
-  material: purple_stained_glass_pane
+  material: magenta_stained_glass_pane
 items:
   back:
     material: arrow
-    pos: 3,0
-    display_name: '<light_purple>{{back}}'
+    pos: 4,0
+    display_name: '<light_purple><bold>{{back}}</bold>'
     lore:
       - '<gray>{{back_click}}'
 templates:
   locked_ability:
-    material: purple_dye
+    material: gray_dye
     display_name: '<light_purple>{name}'
     lore:
       - '<white>{{description}}:'
@@ -47,7 +47,7 @@ templates:
       - ' '
       - '<dark_purple>{{locked}}'
   unlocked_ability:
-    material: magenta_dye
+    material: amethyst_shard
     display_name: '<light_purple>{name}'
     lore:
       - component: your_level
@@ -59,7 +59,7 @@ templates:
       - '<green>{{unlocked}}'
   unlocked_mana_ability:
     pos: 2,4
-    material: pink_dye
+    material: nether_star
     display_name: '<light_purple>{name}'
     lore:
       - component: your_level

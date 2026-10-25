@@ -1,0 +1,15 @@
+sources:
+  mana_techniques:
+    type: mana_ability_use
+    mana_ability:
+      - replenish
+      - treecapitator
+      - speed_mine
+      - sharp_hook
+      - terraform
+      - charged_shot
+      - absorption
+      - lightning_blade
+    xp: 18
+    menu_item:
+      material: ender_eye
